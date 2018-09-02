@@ -1,0 +1,15 @@
+/* 
+Custom CSS
+
+Author: Will Guisbond
+Project: Rambunctious Magazine v2.0
+Rights: JDHS and distributors
+
+THIS CSS IS FORMATING AND STATIC COLORS ONLY - ANY CHANGABLE OBJECTS VIA THE ADMIN 
+PANEL MUST BE INLUDED OUTSIDE A CSS ROOT AND INSIDE THE APPROPRIATE FILE TO WORK.
+
+Admin Notes:
+
+-Fonts must be changed manually. They require an /@import/ sigma that cannot be replicated via voyager syntax.
+
+*/
