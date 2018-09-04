@@ -82,7 +82,7 @@
 
               <div class="uk-card uk-card-default uk-card-large uk-card-body">
                 <h3 style="color: #abafb5;" class="uk-card-title">JD's Award Winning Literary Magazine</h3>
-                <p>The award winning art and literary magazine features the best and most creative work <br> Jamesville-Dewitt High School has to offer. The student-run staff works hard to produce both a <br> Winter and Spring issue every academic year. Below, you can view our magazine as a preview, <br> to be purchased from Mr. Phillips. A comprehensive library, displaying all works, is on it's way.</p>
+                <p>Rambunctious is Jamesville Dewitt High School's award-winning literary magazine composed <br> entirely of student-submitteed works. Run by students, our staff works hard to publish <br> 2 editions every academic year, composed of these submissions. If you are interested in joining our staff, <br> we meet every Friday in G12; if you are interested in purchasing a magzine, see Mr. Phillips. </p>
               </div>
             </center>
             <br><br>
