@@ -64,9 +64,13 @@ Route::get('/library/{edition_id}/{genre_id}/{piece_id}', 'LibraryController@pie
 Other System Routes
 */
 
-// Testing...
-Route::get('/test', function () {
+// New Style Dev Routes
+Route::get('/test-home', function () {
     return view('new-style.home');
+});
+
+Route::get('/test-contact', function () {
+    return view('new-style.contact');
 });
 
 // Voyager route admin prefix

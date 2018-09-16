@@ -1,5 +1,5 @@
-<section class="s-pageheader s-pageheader--home">
 
+ <div class="s-pageheader">
         <header class="header">
             <div class="header__content row">
 
@@ -51,3 +51,4 @@
 
             </div> <!-- header-content -->
         </header> <!-- header -->
+            </div> <!-- end s-pageheader -->
