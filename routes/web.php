@@ -66,7 +66,7 @@ Other System Routes
 
 // Testing...
 Route::get('/test', function () {
-    return view('404');
+    return view('new-style.home');
 });
 
 // Voyager route admin prefix

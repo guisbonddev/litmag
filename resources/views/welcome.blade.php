@@ -90,14 +90,15 @@
         <hr>
         <div class="col-md-12">
           <div class="uk-column-1-2 ">
-                <img src="http://i68.tinypic.com/mj97ad.png">
-                  <p style="font-size: 80px;"><i>"Part of a well balanced breakfast"</i></p>
+                <img width="100%" src="http://i64.tinypic.com/j5l6ck.png">
+                  <p style="font-size: 70px;"><i>"A New Direction"</i></p>
 
-                  <p>Neither of us consider ourselves “morning people.” It’s safe to say that breakfast, which we consider an expression of our humanity, makes the morning that much more bearable. When we saw Captain Jake, Oh by Everett Moss, a senior this year, it immediately caught everyone’s eye. Adventuring through the creative process was long and controversial, so it makes us proud of the final product we are presenting to you. <br><br>
+                  <p>What is direction? According to the dictionary, it means <i>a course along which someone or something moves</i>. Throughout the 2017-2018 school year, we have tried to figure out where we’re going and how the magazine has to change in order to get there. The process of adapting to new experiences is a founding virtue of humanity. As editors, we are trying to employ the second definition: <i>the management or guidance of something or someone</i>.<br><br>
 
-                  As our first edition of the year, the Fall issue helps us to work out the kinks in production so we can better ourselves and our processes for next issue. This year we are armed with the largest staff we’ve ever had, a brand new website, new Adobe Indesign software, and a wealth of new talent. We believe that with this issue, we’ve continued to set the bar for our entire publication. <br><br>
+                  The cover, interspersed with various lines of contrasting directions demonstrates our jour-
+                  ney. It emphasizes the changes that the magazine has gone through this year and all of the possible directions for our future. Long hours spent in the computer lab in addition to a looming deadline taught us something. It taught us about the many ways direction can manifest itself. After completing the spring edition, we have realized that the only constants are these changes in direction - but we are proud of where we are now. <br><br>
 
-                  With that, we are excited to present the Fall 2017 edition of Rambunctious, “a key part in every well balanced breakfast.”<br><br>
+                  Without further ado, we present the Spring 2018 edition of <i>Rambunctious</i> - our nod to direction and what it can do.<br><br>
 
                   Sofia Liaw, Print Editor
                   <br>
