@@ -73,6 +73,9 @@ Route::get('/test-contact', function () {
     return view('new-style.contact');
 });
 
+Route::get('/test-library', function () {
+    return view('new-style.library');
+});
 // Voyager route admin prefix
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
