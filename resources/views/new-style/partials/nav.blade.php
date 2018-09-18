@@ -4,8 +4,8 @@
             <div class="header__content row">
 
                 <div class="header__logo">
-                    <a class="logo" href="index.html">
-                        <img src="img/logo.svg" alt="Homepage">
+                    <a href="index.html">
+                        <img src="img/ramb-light.png" alt="Homepage">
                     </a>
                 </div> <!-- end header__logo -->
 
@@ -32,7 +32,7 @@
                     <h2 class="header__nav-heading h6">Site Navigation</h2>
 
                     <ul class="header__nav">
-                        <li class="current"><a href="index.html" title="">Home</a></li>
+                        <li><a href="index.html" title="">Home</a></li>
                         <li class="has-children">
                             <a href="#0" title="">Library</a>
                             <ul class="sub-menu">
