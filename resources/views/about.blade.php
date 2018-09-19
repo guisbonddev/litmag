@@ -76,14 +76,15 @@
 
                 <div class="grid-sizer"></div>
 
+                @foreach ($staffs as $staff)
                <article class="masonry__brick entry format-standard" data-aos="fade-up">
                     <div class="entry__text">
                         <center>
                             <div class="entry__header">
-                               <h3 style="font-family: 'Raleway', sans-serif;" class="entry__title"><a href="single-standard.html">Will Guisbond</a></h3>
+                               <h3 style="font-family: 'Raleway', sans-serif;" class="entry__title"><a href="single-standard.html">{{$staff->name}}</a></h3>
                             </div>
                               <div class="entry__excerpt">
-                               <b>Web Editor</b>
+                               <b>{{$staff->staff_role}}</b>
                             </div>
                         </center>
                     </div>
