@@ -63,7 +63,7 @@ class LibraryController extends Controller
     		'genre','=', $current_genre->name
     	)->where(
             'edition','=', $current_edition->edition
-        )->get();
+        )->inRandomOrder()->get();
 
     	return view('library.pieces', compact('current_edition','current_genre','pieces'));
     }
