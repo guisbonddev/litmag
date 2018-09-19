@@ -10,18 +10,21 @@
                 </div> <!-- end header__logo -->
 
                 <ul class="header__social">
-                    <li>
+                   <!-- <li>
                         <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                     </li>
+                -->
                     <li>
-                        <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/jdlitmag?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                     </li>
                     <li>
-                        <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/jdlitmag/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                     </li>
-                    <li>
+                    
+                   <!-- <li>
                         <a href="#0"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
                     </li>
+                 -->
                 </ul> <!-- end header__social -->
 
 

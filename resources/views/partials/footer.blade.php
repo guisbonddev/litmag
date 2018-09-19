@@ -25,7 +25,6 @@
                     <h4>Social</h4>
 
                     <ul class="s-footer__linklist">
-                        <li><a href="">Facebook</a></li>
                         <li><a href="https://www.instagram.com/jdlitmag/">Instagram</a></li>
                         <li><a href="https://twitter.com/jdlitmag?lang=en">Twitter</a></li>
                     </ul>
@@ -41,7 +40,7 @@
                     <div class="s-footer__copyright">
                         <span>© Copyright Rambunctious Literary Magazine 2018</span> <br>
                         <span>Site Template by <a href="https://colorlib.com/">Colorlib</a></span><br>
-                        <span>Jumbotron image courtesy of <a href="https://unsplash.com/">Unsplash</a></span>
+                        <span>Jumbotron image courtesy of <a href="https://unsplash.com/photos/EF8Jr-uPS2Y">Unsplash</a></span>
                     </div>
 
                     <div class="go-top">
