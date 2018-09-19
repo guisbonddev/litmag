@@ -81,7 +81,7 @@
                     <div class="entry__text">
                         <center>
                             <div class="entry__header">
-                               <h3 style="font-family: 'Raleway', sans-serif;" class="entry__title"><a href="single-standard.html">{{$staff->name}}</a></h3>
+                               <h3 style="font-family: 'Raleway', sans-serif;" class="entry__title"><a>{{$staff->name}}</a></h3>
                             </div>
                               <div class="entry__excerpt">
                                <b>{{$staff->staff_role}}</b>

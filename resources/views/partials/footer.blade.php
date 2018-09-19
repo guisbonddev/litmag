@@ -39,7 +39,7 @@
                 <div class="col-full">
                     <div class="s-footer__copyright">
                         <span>© Copyright Rambunctious Literary Magazine 2018</span> <br>
-                        <span>Site Template by <a href="https://colorlib.com/">Colorlib, Code by Will Guisbond</a></span><br>
+                        <span>Site Template by <a href="https://colorlib.com/">Colorlib</a>, Code by Will Guisbond</span><br>
                         <span>Jumbotron image courtesy of <a href="https://unsplash.com/photos/EF8Jr-uPS2Y">Unsplash</a></span>
                     </div>
 
