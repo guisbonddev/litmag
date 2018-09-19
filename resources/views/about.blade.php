@@ -89,6 +89,7 @@
                         </center>
                     </div>
                 </article> <!-- end article -->
+                @endforeach
 
             </div> <!-- end masonry -->
         </div> <!-- end masonry-wrap -->
