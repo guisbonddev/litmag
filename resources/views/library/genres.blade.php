@@ -54,6 +54,15 @@
                                     </div>
                                 </article>
                             @endforeach
+                            <article class="masonry__brick entry format-standard">
+                                    <div class="entry__text">
+                                        <center>
+                                            <div class="entry__header">
+                                               <h1 class="entry__title"><a href="/library/{{$current_edition->id}}/artwork">Art & Photos</a></h1>
+                                            </div>
+                                        </center>
+                                    </div>
+                                </article>
                 </div> <!-- end popular -->
             </div> <!-- end row -->
     </section> <!-- end s-extra -->
