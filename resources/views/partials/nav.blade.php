@@ -4,7 +4,7 @@
             <div class="header__content row">
 
                 <div class="header__logo">
-                    <a href="index.html">
+                    <a href="/">
                         <img src="{{ asset('img/ramb-light.png') }}" alt="Homepage">
                     </a>
                 </div> <!-- end header__logo -->
