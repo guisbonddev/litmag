@@ -22,7 +22,7 @@ class HomeController extends Controller
     		where('current_edition','=','1')
     	->first();
 
-    	return view('welcome', compact('edition'));
+    	return view('home', compact('edition'));
     }
 
     public function contact(Request $request)

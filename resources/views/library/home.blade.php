@@ -1,109 +1,83 @@
-<html lang="en">
-  <head>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
 
-    <title>JD's Lit Mag</title>
-    <!-- Required meta tags -->
+    <!--- basic page needs
+    ================================================== -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Rambunctious Literary Magazine</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <style>
-      @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-      @font-face {
-          font-family:"LeagueSpartan-Bold";
-          src: url("/public/LeagueSpartan-Bold.otf"); /* TTF file for CSS3 browsers */
-      }
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="{{ asset('css/base.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/vendor.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/main.css') }}"> 
 
-      div{
-        font-family:"LeagueSpartan-Bold";
-      }
-                  * { box-sizing: border-box; }
-
-            body { font-family: sans-serif; }
-
-            .grid-item img {
-                width: 100%;
-                
-            }
+    <!-- script
+    ================================================== -->
+    <script type="text/javascript" src="{{ asset('js/modernizr.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/pace.min.js') }}"></script>
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
 
-            /* ---- grid ---- */
 
-            .grid {
-              background: #FFF;
-              max-width: 1200px;
-            }
+</head>
 
-            /* clearfix */
-            .grid:after {
-              content: '';
-              display: block;
-              clear: both;
-            }
+<body id="top">
 
-            /* ---- grid-item ---- */
+    @include('partials.nav')
 
-            .grid-item {
-              width: 160px;
-              height: 120px;
-              float: left;
-              background: none;
-              border-color: hsla(0, 0%, 0%, 0.5);
-              margin: 10px;
-            }
+    <!-- s-content
+    ================================================== -->
 
-            .grid-item:hover{
-                transform: scale(1.2, 1.2); /** default is 1, scale it to 1.5 */
-                opacity: 1;
-            }
+<section class="s-content">
+        
+        <div class="row masonry-wrap">
+            <div class="masonry">
 
-            .grid-item--width1 { width:  30%; }
-            .grid-item--height1 { height: 300px; }
+                <div class="grid-sizer"></div>
 
-    </style>
-
-   <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.35/css/uikit.min.css" />
-
-    <!-- UIkit JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.35/js/uikit.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.35/js/uikit-icons.min.js"></script>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">  
-
-  </head>
-  <body">
-      @include('partials.nav')
-      <br><br>
-      <div clss="row">
-        <div class="col-md-12">
-          <script>
-            $('.grid').masonry({
-              itemSelector: '.grid-item',
-              columnWidth: 160
-              gutter: 10
-            });
-          </script>
-          <center>
-              <h2>Rambunctious Editions</h2>
-              <div class="grid">
                 @foreach ($editions as $edition)
-                    <a href="/library/{{$edition->id}}"><img width="100%" src="{{$edition->image}}" style="outline: 1px solid;" class="img-fluid grid-item grid-item--height1 grid-item--width1"></a>
+                    <article class="masonry__brick entry format-standard" data-aos="fade-up">
+                            
+                        <div class="entry__thumb">
+                            <a href="/library/{{$edition->id}}" class="entry__thumb-link">
+                                <img src="{{$edition->image}}" 
+                                        srcset="{{$edition->image}}" alt="">
+                            </a>
+                        </div>
+        
+                        <div class="entry__text">
+                            <center>
+                                <div class="entry__header">
+                                   <h1 style="font-family: 'Raleway', sans-serif;" class="entry__title"><a href="/library/{{$edition->id}}">{{$edition->edition}}</a></h1>  
+                                </div>
+                            </center>
+                        </div>
+        
+                    </article> <!-- end article -->
                 @endforeach
-              </div>
-          </center>
-        </div>
-      </div>
-      @include('partials.footer')
+
+    </section> <!-- s-content -->
+
+
+
+
+
+
     
+    @include('partials.footer')
 
+</body>
 
-    <!-- ///////////////////////////////////////////////////////////// -->
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-  </body>
 </html>

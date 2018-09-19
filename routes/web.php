@@ -24,7 +24,12 @@ Route::get('/404', function () {
 Route::get('/', 'HomeController@home');
 
 // Submissions Hompeage
-Route::get('/submit', 'SubmissionController@submit');
+// Route::get('/submit', 'SubmissionController@submit');
+
+// Submissions GF Reroute
+Route::get('/submit', function () {
+    return redirect('https://docs.google.com/forms/d/e/1FAIpQLScib5cok-dlQnKw7AYnZlIFyTXoJhK8cvptgmqXhZDbyNC9Lg/viewform');
+});
 
 // Contact form show
 Route::get('/contact', function () {
@@ -64,18 +69,6 @@ Route::get('/library/{edition_id}/{genre_id}/{piece_id}', 'LibraryController@pie
 Other System Routes
 */
 
-// New Style Dev Routes
-Route::get('/test-home', function () {
-    return view('new-style.home');
-});
-
-Route::get('/test-contact', function () {
-    return view('new-style.contact');
-});
-
-Route::get('/test-library', function () {
-    return view('new-style.library');
-});
 // Voyager route admin prefix
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

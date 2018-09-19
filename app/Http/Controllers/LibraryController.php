@@ -40,7 +40,7 @@ class LibraryController extends Controller
 
         $artworks = \App\Artwork::
             where('edition','=', $current_edition->edition)
-        ->get();
+        ->inRandomOrder()->get();
 
         return view('library.artwork', compact('current_edition','artworks'));
     
