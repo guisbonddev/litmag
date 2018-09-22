@@ -43,7 +43,7 @@
                             <li><a href="/library">View Archives</a></li>
                             </ul>
                         </li>
-                        <li><a href="/submit" title="">Submit</a></li>
+                        <li><a href="https://submit.jdlitmag.org/" title="">Submit</a></li>
                         <li><a href="/about" title="">About</a></li>
                         <li><a href="/contact" title="">Contact</a></li>
                     </ul> <!-- end header__nav -->
