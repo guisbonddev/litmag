@@ -53,6 +53,10 @@ Library Routes
 // Initial library page; route to show editions
 Route::get('/library', 'LibraryController@editions');
 
+Route::get('/library/oldarch', function () {
+    return view('library.oldarch');
+});
+
 // Library page that shows genres of an issue they clicked on
 Route::get('/library/{edition_id}', 'LibraryController@genres');
 
