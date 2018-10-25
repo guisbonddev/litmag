@@ -39,8 +39,8 @@
                         <li class="has-children">
                             <a>Library</a>
                             <ul class="sub-menu">
-                            <li><a href="/library/5">Current Edition</a></li>
-                            <li><a href="/library">View Archives</a></li>
+                            <li><a href="/library">Electronic Library</a></li>
+                            <li><a href="/library/oldarch">Archives</a></li>
                             </ul>
                         </li>
                         <li><a href="https://submit.jdlitmag.org/" title="">Submit</a></li>

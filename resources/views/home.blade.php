@@ -69,11 +69,11 @@
                           
                         </div> <!-- end entry -->
 
-                        <div class="entry" style="background-image:url('https://images.unsplash.com/photo-1496389429868-ef51f7140b1e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c917a775b202d8dce8d9e2aa54444903&auto=format&fit=crop&w=1029&q=80');">
+                        <div class="entry" style="background-image:url('http://i64.tinypic.com/153uyad.jpg');">
 
                             <div class="entry__content">
 
-                                <h1><a href="/submit" title="">Fall 2018 Submissions Are Open!</a></h1>
+                                <h1><a href="https://submit.jdlitmag.org/" title="">Fall 2018 Submissions Are Open!</a></h1>
 
                             </div> <!-- end entry__content -->
 
