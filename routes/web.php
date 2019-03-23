@@ -15,9 +15,14 @@
 Homepage / Main Website Routes
 */
 
-//404 Error Page
+// 404 Error Page
 Route::get('/404', function () {
     return view('404');
+});
+
+// Feature page route
+Route::get('/feature', function () {
+    return view('feature');
 });
 
 // Magazine Homepage
