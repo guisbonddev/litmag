@@ -50,7 +50,7 @@
                             
                             <div class="entry__content">
 
-                                <h1><a href="/feature" title="">JD's Scholastic-Winning Plays</a></h1>
+                                <h1><a href="/feature" title="">JD's Scholastic-Winning Pieces</a></h1>
 
                             </div> <!-- end entry__content -->
                             
