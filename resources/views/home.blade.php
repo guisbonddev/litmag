@@ -46,11 +46,11 @@
                 <div class="featured">
 
                     <div class="featured__column featured__column--big">
-                        <div class="entry" style="background-image:url('http://i64.tinypic.com/j5l6ck.png');">
+                        <div class="entry" style="background-image:url('http://i63.tinypic.com/2dvsfmq.jpg');">
                             
                             <div class="entry__content">
 
-                                <h1><a href="/library/5" title="">"A Change In Direction" - Spring 2018 Edition Out Now</a></h1>
+                                <h1><a href="/feature" title="">JD's Scholastic-Winning Plays</a></h1>
 
                             </div> <!-- end entry__content -->
                             
@@ -73,7 +73,7 @@
 
                             <div class="entry__content">
 
-                                <h1><a href="https://submit.jdlitmag.org/" title="">Fall 2018 Submissions Are Open!</a></h1>
+                                <h1><a href="https://submit.jdlitmag.org/" title="">Spring 2019 Submissions Are Open!</a></h1>
 
                             </div> <!-- end entry__content -->
 
