@@ -58,7 +58,7 @@
                 <p class="lead">Rambunctious is Jamesville Dewitt High School's award-winning literary magazine composed 
                 entirely of student-submitteed works. Run by students, our staff works hard to publish 
                 2 editions every academic year, composed of these submissions. If you are interested in joining our staff, 
-                we meet every Friday in G12; if you are interested in purchasing a magzine, see Mr. Phillips.</p>
+                we meet every Friday in R34 or the PC lab; if you are interested in purchasing a magzine, see Ms. MK.</p>
 
 
             </div> <!-- end s-content__main -->

@@ -73,7 +73,7 @@
 
                             <div class="entry__content">
 
-                                <h1><a href="https://submit.jdlitmag.org/" title="">Spring 2019 Submissions Are Open!</a></h1>
+                                <h1><a href="https://submit.jdlitmag.org/" title="">Fall 2019 Submissions Are Open!</a></h1>
 
                             </div> <!-- end entry__content -->
 
