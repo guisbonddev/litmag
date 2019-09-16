@@ -46,11 +46,11 @@
                 <div class="featured">
 
                     <div class="featured__column featured__column--big">
-                        <div class="entry" style="background-image:url('http://i63.tinypic.com/2dvsfmq.jpg');">
+                        <div class="entry" style="background-image:url('http://jdlitmag.org/storage/stage.jpeg');">
                             
                             <div class="entry__content">
 
-                                <h1><a href="/feature" title="">JD's Scholastic-Winning Pieces</a></h1>
+                                <h1><a href="/feature" title="">Join the Rambunctious Staff! Click here</a></h1>
 
                             </div> <!-- end entry__content -->
                             
@@ -59,7 +59,7 @@
 
                     <div class="featured__column featured__column--small">
 
-                        <div class="entry" style="background-image:url('http://i68.tinypic.com/mj97ad.png');">
+                        <div class="entry" style="background-image:url('http://jdlitmag.org/storage/f17cover.png');">
                             
                             <div class="entry__content">
 
@@ -69,11 +69,11 @@
                           
                         </div> <!-- end entry -->
 
-                        <div class="entry" style="background-image:url('http://i64.tinypic.com/153uyad.jpg');">
+                        <div class="entry" style="background-image:url('http://jdlitmag.org/storage/typewriter.jpeg');">
 
                             <div class="entry__content">
 
-                                <h1><a href="https://submit.jdlitmag.org/" title="">Fall 2019 Submissions Are Open!</a></h1>
+                                <h1><a href="https://submit.jdlitmag.org/" title="">Submissions Are Always Open</a></h1>
 
                             </div> <!-- end entry__content -->
 
